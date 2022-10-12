@@ -596,4 +596,5 @@ PRICING
 .pricing__background-color{
   position: absolute;
   left:0px;
+  right: 0px;
 }
