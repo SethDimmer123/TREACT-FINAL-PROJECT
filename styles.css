@@ -554,3 +554,26 @@ margin-left:8px;
 PRICING
 
 */
+
+.pricing__des--container{
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.pricing__des{
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  line-height: 1.5;
+  font-size: 18px;
+  color: rgb(124 139 161);
+}
+
+.pricing__header{
+  margin-bottom: 1rem;
+}
+
+.pricing__subheader{
+  margin-bottom: 1rem;
+}
