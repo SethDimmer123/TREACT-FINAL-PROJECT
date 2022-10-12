@@ -589,5 +589,11 @@ PRICING
   position: relative;
   width: 100%;
   text-align: center;
-  border-radius: 24rem;
+  border:grey 2px solid;
+  border-radius: 0.5rem;
+}
+
+.pricing__background-color{
+  position: absolute;
+  left:0px
 }
