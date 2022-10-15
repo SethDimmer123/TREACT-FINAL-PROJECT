@@ -591,6 +591,7 @@ PRICING
   text-align: center;
   border:grey 2px solid;
   border-radius: 0.5rem;
+  margin: 40px;
 }
 
 
@@ -625,26 +626,34 @@ font-weight: 700;
 font-size: 16px;
 font-weight: 600;
 color: rgb(160, 174, 192);
+margin-top: 8px;
 }
 
 .pricing__bottom--container{
-  padding-top: 12px;
+padding: 8px;
 }
 
 .pricing__bottom--header{
-  padding:12px
+  padding-top:12px;
+  font-weight: 700;
+  font-size: 1.25rem;
 }
 
-.price__bottom--low--terms{
-
+.pricing__bottom--low--terms{
+  font-weight: 500;
+  margin-top: 1.25rem;
 }
 
-.price__button--wrapper{
-
+.pricing__button--wrapper{
+  margin: 48px;
+  padding: 18px;
 }
 
-.price__button{
-
+.pricing__button{
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 
