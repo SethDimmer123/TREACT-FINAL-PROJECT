@@ -612,9 +612,11 @@ PRICING
 .pricing__word{
 font-size: 20px;
 color: black;
+font-weight: 700;
 }
 
 .pricing__number{
+font-size: 48px;
 
 }
 
