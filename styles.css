@@ -593,20 +593,19 @@ PRICING
   border-radius: 0.5rem;
 }
 
+
 .pricing__background-color{
   position: absolute;
   left:0px;
   right: 0px;
   top:0px;
-   height: 0.5rem;
-   background:linear-gradient(115def,
-   rgb(56,178,172) 0%
-   ) ;
+   height: 8px;
 }
 
 .pricing__top--container{
   display: flex;
   flex-direction: column;
   width: 100%;
+  padding: 32px;
 }
 
