@@ -723,7 +723,7 @@ padding: 8px;
   /* box-shadow: ; */
 } 
 
-.pricing__blob--pink{
+/* .pricing__blob--pink{
   position: absolute;
   left: 0;
     bottom: 0;
@@ -732,7 +732,7 @@ padding: 8px;
     transform: matrix(1, 0, 0, 1, -128, 4150);
     opacity: 0.25;
     overflow: hidden;
-}
+} */
 
 
 
