@@ -585,7 +585,23 @@ PRICING
   margin-top: 150px;
 }
 
-.pricing__box{
+.pricing__box-1{
+  position: relative;
+  width: 100%;
+  text-align: center;
+  border:grey 2px solid;
+  border-radius: 0.5rem;
+  margin: 40px;
+}
+.pricing__box-2{
+  position: relative;
+  width: 100%;
+  text-align: center;
+  border:grey 2px solid;
+  border-radius: 0.5rem;
+  margin: 40px;
+}
+.pricing__box-3{
   position: relative;
   width: 100%;
   text-align: center;
@@ -600,7 +616,7 @@ PRICING
   left:0px;
   right: 0px;
   top:0px;
-   height: 8px;
+  height: 8px;
 }
 
 .pricing__top--container{
@@ -655,6 +671,13 @@ padding: 8px;
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: rgb(125, 217, 205);
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  border: none;
+  border-radius: 9999px;
+  /* box-shadow: ; */
+
 } 
 
 
@@ -663,6 +686,12 @@ padding: 8px;
   padding-right: 4rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  border: none;
+  border-radius: 9999px;
+  background-color: rgb(247, 250, 252);
 
 } 
 
