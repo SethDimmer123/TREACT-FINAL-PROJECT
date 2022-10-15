@@ -599,8 +599,14 @@ PRICING
   right: 0px;
   top:0px;
    height: 0.5rem;
+   background:linear-gradient(115def,
+   rgb(56,178,172) 0%
+   ) ;
 }
 
 .pricing__top--container{
   display: flex;
+  flex-direction: column;
+  width: 100%;
 }
+
