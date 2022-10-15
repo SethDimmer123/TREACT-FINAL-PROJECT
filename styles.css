@@ -617,20 +617,22 @@ font-weight: 700;
 
 .pricing__number{
 font-size: 48px;
-
+font-weight: 700;
 }
 
 
-.price__time{
-
+.pricing__time{
+font-size: 16px;
+font-weight: 600;
+color: rgb(160, 174, 192);
 }
 
-.price__bottom--container{
-
+.pricing__bottom--container{
+  padding-top: 12px;
 }
 
-.price__bottom--header{
-
+.pricing__bottom--header{
+  padding:12px
 }
 
 .price__bottom--low--terms{
