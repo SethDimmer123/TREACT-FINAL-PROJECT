@@ -645,7 +645,7 @@ margin-bottom: 12px;
 }
 .pricing__word-2{
 font-size: 20px;
-color: black;
+color: white;
 font-weight: 700;
 margin-bottom: 12px;
 }
@@ -657,6 +657,7 @@ font-weight: 700;
 .pricing__number-2{
 font-size: 48px;
 font-weight: 700;
+color: white;
 }
 
 
@@ -669,8 +670,8 @@ margin-top: 16px;
 .pricing__time-2{
 font-size: 16px;
 font-weight: 600;
-color: rgb(160, 174, 192);
 margin-top: 16px;
+color:white ;
 }
 
 
@@ -688,6 +689,7 @@ padding: 8px;
   padding-top:12px;
   font-weight: 700;
   font-size: 1.25rem;
+  color: white;
 }
 
 .pricing__bottom--low--terms{
@@ -697,6 +699,7 @@ padding: 8px;
 .pricing__bottom--low--terms-2{
   font-weight: 500;
   margin-top: 1.25rem;
+  color: white;
 }
 
 .pricing__button--wrapper{
