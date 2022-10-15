@@ -600,6 +600,16 @@ PRICING
   border:grey 2px solid;
   border-radius: 0.5rem;
   margin: 40px;
+  background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+}
+
+.pricing__background-color-3{
+  position: absolute;
+  left:0px;
+  right: 0px;
+  top:0px;
+  height: 8px;
+  background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
 .pricing__box-3{
   position: relative;
@@ -611,12 +621,13 @@ PRICING
 }
 
 
-.pricing__background-color{
+.pricing__background-color-1{
   position: absolute;
   left:0px;
   right: 0px;
   top:0px;
   height: 8px;
+  background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
 }
 
 .pricing__top--container{
@@ -642,7 +653,7 @@ font-weight: 700;
 font-size: 16px;
 font-weight: 600;
 color: rgb(160, 174, 192);
-margin-top: 8px;
+margin-top: 16px;
 }
 
 .pricing__bottom--container{
@@ -692,6 +703,8 @@ padding: 8px;
   border: none;
   border-radius: 9999px;
   background-color: rgb(247, 250, 252);
+  color: rgb(100, 21, 255);
+  /* box-shadow: ; */
 
 } 
 
@@ -700,6 +713,14 @@ padding: 8px;
   padding-right: 4rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  border: none;
+  border-radius: 9999px;
+  background-color: rgb(247, 250, 252);
+  /* box-shadow: ; */
+
 } 
 
 
