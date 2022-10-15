@@ -649,12 +649,30 @@ padding: 8px;
   padding: 18px;
 }
 
-.pricing__button{
+.pricing__button-1{
   padding-left: 4rem;
   padding-right: 4rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
+  background-color: rgb(125, 217, 205);
+} 
+
+
+.pricing__button-2{
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+} 
+
+.pricing__button-3{
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+} 
+
 
 
 
