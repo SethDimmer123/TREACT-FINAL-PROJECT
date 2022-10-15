@@ -610,7 +610,8 @@ PRICING
 }
 
 .pricing__word{
-
+font-size: 20px;
+color: black;
 }
 
 .pricing__number{
@@ -623,7 +624,23 @@ PRICING
 }
 
 .price__bottom--container{
-  
+
+}
+
+.price__bottom--header{
+
+}
+
+.price__bottom--low--terms{
+
+}
+
+.price__button--wrapper{
+
+}
+
+.price__button{
+
 }
 
 
