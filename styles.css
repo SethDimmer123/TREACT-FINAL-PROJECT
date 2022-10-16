@@ -773,6 +773,10 @@ TESTIMONIAL
 
 */
 
+#testimonials .row{
+  display: flex;
+}
+
 
 
 
