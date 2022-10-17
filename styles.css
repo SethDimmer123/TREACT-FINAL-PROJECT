@@ -840,6 +840,27 @@ color: #1a202c;
 margin-top: 30px;
 }
 
+.testimonial__img--container{
+  display: flex;
+  margin: 0 auto;
+}
+
+
+.testimonial__img--wrapper img{
+  width: 80px;
+  border-radius: 9999px;
+  overflow:hidden
+}
+
+.testimonial__profile--container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  margin-left: 16px;
+  width: 100%;
+}
+
+
 
 
 
