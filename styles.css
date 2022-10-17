@@ -777,6 +777,23 @@ TESTIMONIAL
   display: flex;
 }
 
+.testimonial__des--container{
+margin: 0 auto;
+padding-left: 68px;
+}
+
+.testimonial__header{
+
+}
+
+.testimonial__subheader{
+
+}
+
+.testimonial__des{
+
+}
+
 
 
 
