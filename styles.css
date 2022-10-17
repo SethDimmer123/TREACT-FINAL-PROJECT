@@ -780,7 +780,7 @@ TESTIMONIAL
 .testimonial__des--container{
 margin: 0 auto;
 padding-left: 68px;
-max-width: 640px;
+max-width: 650px;
 }
 
 .testimonial__header{
@@ -795,6 +795,7 @@ max-width: 640px;
 
 .testimonial__des{
   line-height: 1.5;
+  max-width:590px ;
 }
 
 
