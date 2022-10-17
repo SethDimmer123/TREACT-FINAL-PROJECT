@@ -862,18 +862,24 @@ margin-top: 30px;
 
 .control__button-1 ,
 .control__button-2{
-  height: 1rem;
-  width: 1rem;
+  height: 30px;
+  width: 30px;
   stroke-width: 3;
+  border-radius: 9999px;
+  /* padding: 1rem; */
 }
+
 
 .button__wrapper{
   display: flex;
+  align-items: center;
 }
 
 .control__buttons{
   display: flex;
 }
+
+
 
 
 
