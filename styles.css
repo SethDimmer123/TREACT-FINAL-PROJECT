@@ -780,18 +780,21 @@ TESTIMONIAL
 .testimonial__des--container{
 margin: 0 auto;
 padding-left: 68px;
+max-width: 640px;
 }
 
 .testimonial__header{
-
+  color: #6415ff;
+  letter-spacing: 0.1em;
+  margin-bottom: 16px;
 }
 
 .testimonial__subheader{
-
+  font-size: 48px;
 }
 
 .testimonial__des{
-
+  line-height: 1.5;
 }
 
 
