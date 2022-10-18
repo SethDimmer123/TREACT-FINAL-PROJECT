@@ -895,8 +895,7 @@ TREACT GET STARTED SECTION
   border-radius: 9px;
 }
 
-.get__started--blob-1,
-.get__started--blob-2{
+.get__started--blob-1{
   height: 320px;
   color: rgb(80, 17, 204);
   opacity: 0.5;
@@ -904,6 +903,12 @@ TREACT GET STARTED SECTION
   bottom: 0px;
   left:0px
 }
+
+.get__started--blob-2{
+  
+}
+
+
 
 
 
