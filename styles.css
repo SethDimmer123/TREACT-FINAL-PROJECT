@@ -887,38 +887,84 @@ TREACT GET STARTED SECTION
 
 
 .treact__get-started--container{
-  position: relative;
-  z-index: -1;
   background-color: #6415ff;
+  position: relative;
   width: 100%;
-  height: 282px;
-  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 280px;
+  border-radius: 8px;
+  margin-bottom: 80px;
   overflow: hidden;
+  z-index:-2;
 }
 
-.get__started--blob-1{
-  height: 20rem;
-  color: rgb(80, 17, 204);
-  opacity: 0.5;
+.background-blob-1{             
   position: absolute;
-  bottom: 0px;
-  left:0px;
-  z-index:-1
-}
-
-.get__started--blob-2{
-  position: absolute;
-  top:0px;
-  right: 0px;
-  height: 20rem;
-  width: 20rem;
-  opacity: 0.5;
+  transform: matrix(1,0,0,1,-80,128);
   color: rgb(80, 17, 204);
+  left: 0;
+  bottom: 0;
+  opacity: 0.5;
+  z-index: -1;
+  height: 320px;
+  width: 320px;
 }
 
+.background-blob-2{  
+  height: 320px;
+  width: 320px;
+  position: absolute;
+  color: rgb(80, 17, 204);
+  right: 0;
+  top: 0;
+  opacity: 0.5;
+  transform: matrix(1,0,0,1,80,-256);
+}
 
+.get__started--row{         
+  margin:0 auto;
+  display:flex;
+  justify-content: center;
+  max-width: 1024px;
+  padding: 0 32px;
+}
 
+.get__started--left{       
+  color: white;
+  font-weight: 700;
+  width:50%;
+}
 
+.get__started--right{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.btn-1{
+  margin-right: 32px;
+  background-color: #f56565;
+}
+
+.get__row--btn{
+  padding: 20px 40px;
+  border-radius: 9999px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-2{
+  background-color: transparent;
+  border: 2px solid white;
+}
 
 
 
