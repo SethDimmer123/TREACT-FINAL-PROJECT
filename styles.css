@@ -1048,6 +1048,12 @@ footer .row{
   align-items: center;
 }
 
+.footer__lower--header{
+  color: white;
+  margin-left: 16px;
+  font-size: 20px;
+}
+
 .footer__copyright--container{
   display: flex;
   align-items: center;
@@ -1056,6 +1062,31 @@ footer .row{
 .footer__lower--logo img{
   width: 35px;
 }
+
+.footer__copyright{
+  color: white;
+}
+
+.footer__bottom--link{
+  padding: 12px;
+  background-color: white;
+  border-radius: 100%;
+  margin-right: 2px;
+
+
+}
+
+.footer__bottom--link svg{
+  width: 20px;
+  height: 20px;
+  color: black;
+}
+
+
+.footer__social--container{
+  display: flex;
+}
+
 
 
 
