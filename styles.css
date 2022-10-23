@@ -19,6 +19,11 @@ li{
 
 .container{
   padding: 96px 0;
+
+}
+
+body{
+  overflow-x: hidden;
 }
 
 #homepage{
@@ -1090,8 +1095,6 @@ footer .row{
   background-color: white;
   border-radius: 100%;
   margin-right: 2px;
-
-
 }
 
 .footer__bottom--link svg{
