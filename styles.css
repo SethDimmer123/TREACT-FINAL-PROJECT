@@ -862,11 +862,14 @@ margin-top: 30px;
 
 .control__button-1 ,
 .control__button-2{
-  height: 30px;
-  width: 30px;
+  height: 50px;
+  width: 50px;
   stroke-width: 3;
   border-radius: 9999px;
-  /* padding: 1rem; */
+  padding: 12px;
+  border: none;
+  margin:8px;
+  color: #6415ff;
 }
 
 
