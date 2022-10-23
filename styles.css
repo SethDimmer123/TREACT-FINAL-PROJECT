@@ -1010,7 +1010,7 @@ footer .row{
   flex-direction: column;
 }
 
-.footer__columns--wrapper{
+.footer__link--wrapper{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -1022,7 +1022,20 @@ footer .row{
   text-align: left;
   color: white;
   font-weight: 500;
+}
 
+.footer__header{
+  display: flex;
+  flex-direction: column;
+  width:calc(100% / 5);
+  align-items: center;
+}
+
+.footer__links{
+  display: flex;
+  flex-direction: column;
+  width:calc(100% / 5);
+  align-items: center;
 }
 
 .footer__header{
@@ -1086,6 +1099,8 @@ footer .row{
 .footer__social--container{
   display: flex;
 }
+
+
 
 
 
