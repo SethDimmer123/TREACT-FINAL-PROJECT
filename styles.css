@@ -507,12 +507,13 @@ margin-left:8px;
 .values__logo--container{
   background-color: rgb(154, 230, 180);
   border-radius: 9999px;
+  padding: 4px;
 }
 
 .values__logo--container-1{
   background-color: rgb(254, 178, 178);
   border-radius: 9999px;
-  /* padding:3px 5px 0 7px */
+  padding: 4px;
   margin-top: -2px;
 }
 
