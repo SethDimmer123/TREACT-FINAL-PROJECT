@@ -1031,6 +1031,33 @@ footer .row{
   color: white;
 }
 
+.footer__hr{
+  width: 100%;
+  height:1px;
+  border:rgb(116, 44, 255) 1px solid
+}
+
+.footer__lower--container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.footer__lower--logo{
+  display: flex;
+  align-items: center;
+}
+
+.footer__copyright--container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.footer__lower--logo img{
+  width: 35px;
+}
+
+
 
 
 
