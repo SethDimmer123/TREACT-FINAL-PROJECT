@@ -1053,7 +1053,8 @@ footer .row{
 .footer__lower--container{
   display: flex;
   justify-content: space-between;
-  margin-top: 60px;
+  align-items: center;
+  margin-top: 30px;
 }
 
 .footer__lower--logo{
