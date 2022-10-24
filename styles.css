@@ -84,6 +84,36 @@ a{  /*edits the links*/
   background-color: transparent;
   font-size: 1.125rem;
   border: none;
+
+}
+
+.nav__burger:hover{
+  color: rgb(100, 21, 255);
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.menu__backdrop{
+  position: fixed;
+  background-color: #242424;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width:100vw;
+  height:70vh;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.btn__menu--close{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  padding: 8px;
+  color: white;
 }
 
 /*
