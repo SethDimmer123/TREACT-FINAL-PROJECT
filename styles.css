@@ -1391,8 +1391,25 @@ footer .row{
 
 /* TABLETS */
 
-@media(max-width:1013px){
-  
+@media(max-width:1006px){
+  .features{
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  /*QUALITY*/
+
+  .quality__work--subheader{
+    font-size: 40px;
+  }
+  .quality__work--para{
+    width: 100%;
+    max-width: 300px;
+  }
+  .quality__work--wrapper img{
+    width: 90%;
+    margin-left: 20px;
+  }
 }
 
 
