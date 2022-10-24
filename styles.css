@@ -80,7 +80,11 @@ a{  /*edits the links*/
     margin: 0;
 }
 
-
+.nav__burger{ /*btn__menu*/
+  background-color: transparent;
+  font-size: 1.125rem;
+  border: none;
+}
 
 /*
 
