@@ -1201,7 +1201,7 @@ footer .row{
   display: flex;
 }
 
-/*SMALL PHONES,TABLETS, LARGE SMARTPHONES*/
+/*DESKTOPS*/
 @media(max-width:1023px) {
   .nav__links{
     display: none;
@@ -1215,7 +1215,15 @@ footer .row{
   }
   .homepage__wrapper{
     width: 100%;
-    max-width: 510px;
+    max-width: 512px;
+  }
+  .homepage__title{
+    text-align: center;
+    font-size: 29px;
+  }
+  .homepage__description{
+    text-align: center;
+
   }
 }
 
@@ -1225,7 +1233,6 @@ footer .row{
   }
 }
 
-/* reference e-commerce website stopped at 1:23:38 */
 
 
 
