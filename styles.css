@@ -108,6 +108,23 @@ a{  /*edits the links*/
   text-align: center;
 }
 
+.menu__list{
+  padding: 8px;
+  margin: 8px;
+  font-size: 32px;
+}
+
+.menu__link{
+color: white;
+}
+
+.menu__link--primary{
+  margin:9px 0;
+  background-color: #6415ff;
+  padding: 16px 30px;
+  border-radius:9999px ;
+}
+
 .btn__menu--close{
   position: absolute;
   right: 20px;
