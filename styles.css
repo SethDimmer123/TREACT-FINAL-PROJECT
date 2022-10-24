@@ -1201,7 +1201,7 @@ footer .row{
   display: flex;
 }
 
-
+/*SMALL PHONES,TABLETS, LARGE SMARTPHONES*/
 @media(max-width:1023px) {
   .nav__links{
     display: none;
@@ -1210,7 +1210,22 @@ footer .row{
   .nav__burger{
     display: block;
   }
+  .homepage__wrapper--img .row{
+    flex-direction: column;
+  }
+  .homepage__wrapper{
+    width: 100%;
+    max-width: 512px;
+  }
 }
+
+@media(max-width:760px){
+  .container{
+    padding: 80px 0px;
+  }
+}
+
+/* reference e-commerce website stopped at 1:23:38 */
 
 
 
