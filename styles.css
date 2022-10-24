@@ -1297,10 +1297,14 @@ footer .row{
   /*VALUES*/
 
   .values__list{
-    margin-left:40px
+    margin-left:40px;
   }
   .values__header{
     margin-bottom: 20px;
+  }
+
+  .values__container--wrapper{
+    display: inline-block;
   }
   .values__right--img{
     width: 100%;
