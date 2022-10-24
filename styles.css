@@ -1229,14 +1229,32 @@ footer .row{
   .homepage__email{
     max-width: 540px;
     margin-top: 24px;
+    margin-bottom:56px
   }
+  .homepage__banner--title{
+    margin: 0 auto;
+  }
+
+  .homepage__banner--img{
+    margin-top: 24px;
+  }
+
+  .homepage__figure--wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+  }
+
+  .homepage__image{
+    width: 100%;
+    max-width: 550px;
+    margin-top: 40px;
+  }
+
+  
 }
 
-@media(max-width:760px){
-  .container{
-    padding: 80px 0px;
-  }
-}
+
 
 
 
