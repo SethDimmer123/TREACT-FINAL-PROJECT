@@ -1391,6 +1391,8 @@ footer .row{
 
 /* TABLETS */
 
+
+/*features*/
 @media(max-width:1006px){
   .features{
     width: 50%;
@@ -1410,6 +1412,56 @@ footer .row{
     width: 90%;
     margin-left: 20px;
   }
+
+  /*STEPS*/
+
+  .steps__img--wrapper{
+    width: 100%;
+    max-width:350px;
+  }
+  .steps__subheader{
+    font-size: 36px;
+    margin-left: 60px;
+  }
+
+  .steps__text{
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .steps__para-1,
+  .steps__para-2,
+  .steps__para-3{
+    width: 100%;
+    max-width: 200px;
+  }
+
+  /*PRICING*/
+
+  .pricing__individual{
+    margin: 0 auto;
+  }
+  .pricing__box-1,
+  .pricing__box-2,
+  .pricing__box-3{
+    margin: 50px 0;
+  }
+
+
+  .footer__link--wrapper{
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+  }
+  .footer__column--container{
+    margin: 0 auto;
+  }
+}
+
+
+/* MOBILE PHONES */
+@media(max-width:576px) {
+
 }
 
 
