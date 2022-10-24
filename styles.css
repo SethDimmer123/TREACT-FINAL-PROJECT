@@ -26,6 +26,10 @@ body{
   overflow-x: hidden;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 #homepage{
   position: relative;
 }
@@ -111,7 +115,8 @@ a{  /*edits the links*/
   left: 0px;
   right: 0px;
   width:100vw;
-  height:60vh;
+  height:100%;
+  max-height:90vh;
   z-index: 100;
   display: flex;
   justify-content: center;
@@ -468,7 +473,7 @@ STEPS
 
 .steps__img--wrapper img{
   width: 100%;
-  max-width: 600px;
+  max-width: 500px;
 }
 
 /* .big__purple--grid{
@@ -587,6 +592,8 @@ margin-top: 16px;
 .values__affordable--word{
 font-size: 16px;
 margin-left:8px;
+display: flex;
+align-items: center;
 }
 
 .values__affordable--para{
@@ -617,6 +624,8 @@ margin-left:8px;
 
 .values__professionalism--word{
   margin-left: 16px;
+  display: flex;
+  align-items: center;
 }
 
 .values__professionalism--para{
@@ -914,6 +923,7 @@ max-width: 650px;
 .testimonial__indv--wrapper{
   display: flex;
   align-items: center;
+
 }
 
 .testimonial__star--wrapper{
@@ -923,6 +933,8 @@ max-width: 650px;
 .star__icon{
   width: 20px;
   margin:0 2px 0 0;
+  fill: currentColor;
+  color: rgb(246 173 85)
 }
 
 .testimonial__bottom--header{
@@ -1302,15 +1314,36 @@ footer .row{
   .values__header{
     margin-bottom: 20px;
   }
+  .values__subheader{
+    width: 100%;
+    max-width: 500px;
+    font-size: 40px;
+  }
 
   .values__container--wrapper{
     display: inline-block;
+  }
+  .values__affordable--para{
+    width: 100%;
+    max-width:255px;
+    text-align: left;
   }
   .values__right--img{
     width: 100%;
     max-width: 450px;
     margin-right: 50px;
   }
+
+  .values__word-and-logo--container{
+    padding:5px;
+  }
+.values__professionalism--container{
+  margin-left: -5px;
+}
+
+.learn__more--btn{
+  display: block;
+}
 
 
   .pricing__des--container{
@@ -1329,8 +1362,38 @@ footer .row{
     margin-left: 300px;
   }
 
+  /*TESTIMONIALS*/
 
+  .testimonial__img{
+    margin-left: 20px;
+    width: 100%;
+  }
+
+  .testimonial__header{
+    font-size: 16px;
+  }
+
+  .testimonial__subheader{
+    font-size: 2.25rem;
+    margin:16px 0 ;
+  }
+
+  .testimonial__bottom--des{
+    width: 100%;
+    max-width: 630px;
+  }
+
+  .testimonial__img--container{
+    margin:50px 10px
+  }
 } 
+
+
+/* TABLETS */
+
+@media(max-width:1013px){
+  
+}
 
 
 
