@@ -1251,8 +1251,36 @@ footer .row{
     margin-top: 40px;
   }
 
+  .feature__list--des{
+    text-align: center;
+  }
+  .feature__name--para{
+    text-align: center;
+  }
+
+  .feature__list{
+    width: 33.3333%;
+  }
+  .quality__work--img-wrapper{
+    margin-left:40px;
+  }
+  .quality__work--para{
+    width: 100%;
+    max-width:400px;
+  }
+  .quality__work--wrapper{
+    margin-right: 40px;
+  }
+
+  /* .grid__purple{
+
+  }*/
+
   
-}
+} 
+
+
+
 
 
 
