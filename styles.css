@@ -1679,6 +1679,75 @@ margin: 0 auto;
 /*MOBILE PHONES*/
 
 @media(max-width:576px){
+  .homepage__title{
+    width: 100%;
+    text-align: center;
+    margin: 0px -20px;
+    margin-bottom: 10px;
+  }
+  .homepage__description{
+    margin: 0px 7px;
+  }
+  .homepage__email{
+    position: relative;
+    margin: 0px 10px;
+  }
+  .homepage__email--input{
+    display: block;
+    width: 100%;
+    max-width: 450px;
+    margin:0px 10px;
+    padding:  15px; 
+    margin-top: 10px;
+
+  }
+  .homepage__email--btn{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 70px;
+    padding:30px 0;
+    font-size:15px;
+    margin-right:45px;
+  }
+
+  .homepage__banner{
+    width: 100%;
+    margin-top: 130px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+  }
+ 
+  .homepage__image{
+    width: 100%;
+    max-width: 450px;
+    margin-left: -70px;
+  }
+
+  /*FEATURES*/
+
+  #features .row{
+    text-align: center;
+  }
+
+  .features__subheader{
+    font-size: 40px;
+  }
+
+  .features__para{
+    width: 100%;
+    max-width: 400px;
+    font-size: 12px;
+    font-weight: 600;
+  }
   
 }
 
