@@ -1668,6 +1668,12 @@ margin: 0 auto;
   width: 100%;
   max-width: 350px;
 }
+.testimonial__img--wrapper{
+  margin-left: 20px;
+}
+.button__wrapper{
+  margin-left: 40px;
+}
 }
 
 
