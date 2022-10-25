@@ -1678,7 +1678,9 @@ margin: 0 auto;
 
 /*MOBILE PHONES*/
 
-
+@media(max-width:576px){
+  
+}
 
 
 
