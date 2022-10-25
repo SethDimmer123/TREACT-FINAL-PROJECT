@@ -1831,7 +1831,8 @@ margin: 0 auto;
 
   .testimonial__bottom--des{
     width: 100%;
-    max-width:350px
+    max-width:350px;
+    margin-right:5px
   }
   .testimonial__img--wrapper{
     margin-right:15px;
@@ -1840,6 +1841,7 @@ margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 5px;
   }
   .testimonial__profile--container h3{
     margin: 0 auto;
@@ -1850,9 +1852,12 @@ margin: 0 auto;
   .button__wrapper{
     margin-left: 10px;
   }
+  .control__buttons{
+    margin:0 auto
+  }
   /*TREACT__GET--STARTED*/
 
-  
+
   }
 
 
