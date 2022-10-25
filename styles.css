@@ -24,6 +24,7 @@ li{
 
 body{
   overflow-x: hidden;
+  /* margin: 8px; */
 }
 
 html{
@@ -1394,6 +1395,11 @@ footer .row{
 
 /*features*/
 @media(max-width:1006px){
+
+  .homepage__image{
+    width: 100%;
+    max-width: 450px;
+  }
   .features{
     width: 50%;
     margin: 0 auto;
@@ -1410,7 +1416,7 @@ footer .row{
   }
   .quality__work--wrapper img{
     width: 90%;
-    margin-left: 20px;
+    /* margin-left: 20px; */
   }
 
   /*STEPS*/
@@ -1460,7 +1466,47 @@ footer .row{
 
 
 /* MOBILE PHONES */
-@media(max-width:576px) {
+@media(max-width:780px) {
+
+.features{
+  width: 100%;
+  flex-direction: row;
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  margin-right:  70px;
+}
+
+
+/*QUALITY__WORK*/
+.quality__work--img-wrapper{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  max-width: 445px;
+  margin-right: 150px;
+}
+
+#quality__work .row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column-reverse;
+  margin: 0 80px;
+}
+.quality__work--wrapper{
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 50px;
+}
+
+.quality__work--para{
+  text-align: center;
+}
+
+/*STEPS*/
 
 }
 
