@@ -1858,6 +1858,44 @@ margin: 0 auto;
   /*TREACT__GET--STARTED*/
 
 
+  #treact__get--started .container{
+    margin:  20px;
+  }
+
+
+  .get__started--row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .get__started--left{
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    margin-bottom: 30px;
+    z-index: 1;
+  }
+
+  .get__started--right{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .get__row--btn{
+    padding: 8px;
+    margin: 0 auto;
+  }
+
+  .btn-1{
+    margin-bottom: 30px;
+    padding: 8px 24px;
+    font-size:15px ;
+  }
+  .btn-2{
+    padding:8px 24px;
+  }
+
+
   }
 
 
