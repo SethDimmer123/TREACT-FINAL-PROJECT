@@ -1758,7 +1758,8 @@ margin: 0 auto;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
-    margin-left: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
   }
   .values__header{
     font-size: 12px;
@@ -1776,6 +1777,9 @@ margin: 0 auto;
   .values__right--img img{
     width: 100%;
     margin-left: 50px;
+  }
+  .quality__work--wrapper img {
+    margin-left: -50px;
   }
   }
 
