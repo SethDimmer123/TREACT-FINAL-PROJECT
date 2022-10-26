@@ -1686,15 +1686,20 @@ margin: 0 auto;
 /*MOBILE PHONES*/
 
 @media(max-width:576px){
+  
+  .homepage__wrapper{
+    display: flex;
+    justify-content: center;
+  }
   .homepage__title{
     width: 100%;
     text-align: center;
     margin: 0px -10px;
     margin-bottom: 10px;
   }
-  .homepage__description{
+  /* .homepage__description{
     margin: 0px 7px;
-  }
+  } */
   .homepage__email{
     position: relative;
     margin: 0px 10px;
@@ -1718,7 +1723,7 @@ margin: 0 auto;
     justify-content: center;
     width: 100%;
     max-width: 400px;
-    margin: 65px;
+    margin-top: 65px;
     /* margin: 0 auto; */
     padding:30px 0;
     font-size:15px;
@@ -1894,7 +1899,7 @@ margin: 0 auto;
     width:100%;
     max-width: 400px;
     margin-top: 15px;
-    
+
   }
   .testimonial__bottom--container{
     /* margin-left: -25px;
@@ -1934,9 +1939,9 @@ margin: 0 auto;
   /*TREACT__GET--STARTED*/
 
 
-  #treact__get--started .container{
-    margin:  20px;
-  }
+  /* #treact__get--started .container{
+    margin:  0 auto;
+  } */
 
 
   .get__started--row{
@@ -1996,7 +2001,8 @@ margin: 0 auto;
   }
 
   .footer__social--container{
-    margin-right: 50px;
+    /* margin-right: 50px; */
+    margin: 0 auto;
   }
 
 }
