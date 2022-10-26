@@ -385,6 +385,7 @@ letter-spacing: 0.025rem;
   transform: translate(calc(150% /3));
   right:0;
   bottom:0;
+  transform: translateX(calc(100% / 3));
 }
 
 /*
