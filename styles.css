@@ -1355,7 +1355,7 @@ margin:0 auto;
   .values__right--img{
     width: 100%;
     max-width: 450px;
-    margin-right: 50px;
+    /* margin-right: 50px; */
   }
 
   .values__word-and-logo--container{
@@ -1508,8 +1508,9 @@ margin:0 auto;
   flex-direction: column;
   text-align: center;
   width: 100%;
-  max-width: 445px;
+  max-width: 280px;
   /* margin-right: 200px; */
+  margin: 0 auto;
 }
 
 #quality__work .row{
@@ -1709,8 +1710,9 @@ margin: 0 auto;
     width: 100%;
     max-width: 450px;
     /* margin:0px 10px; */
-    padding:  15px ; 
-    margin-top: 10px;
+    padding:  0px -45px; 
+    /* margin-top: 10px; */
+    margin: 0 auto;
 
   }
   .homepage__email--btn{
@@ -1722,7 +1724,7 @@ margin: 0 auto;
     align-items: center;
     justify-content: center;
     width: 100%;
-    max-width: 400px;
+    max-width: 350px;
     margin-top: 65px;
     /* margin: 0 auto; */
     padding:30px 0;
@@ -1737,6 +1739,14 @@ margin: 0 auto;
     flex-direction: column;
     /* margin-left: 50px; */
     /* margin: 0 auto; */
+  }
+  .homepage__banner--title{
+    margin-bottom: 10px;
+  }
+  .homepage__banner--img{
+    width: 100%;
+    max-width:300px;
+    margin: 0 auto;
   }
 
   .homepage__figure--wrapper{
@@ -1857,8 +1867,9 @@ margin: 0 auto;
     max-width:470px;
   }
   .quality__work--wrapper img {
-    max-width: 370px;
-    margin-bottom: 50px;
+    max-width: 373px;
+    /* margin-bottom: 50px; */
+    margin: 0 auto;
   }
 
   /*PRICING*/
