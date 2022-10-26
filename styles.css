@@ -1456,7 +1456,8 @@ margin:0 auto;
 
   .steps__text{
     width: 100%;
-    max-width: 300px;
+    /* max-width: 300px; */
+    margin: 0 auto;
   }
 
   .steps__para-1,
@@ -1557,16 +1558,18 @@ margin:0 auto;
 
 
 .steps__h6{
-  margin-left: 105px;
+  /* margin-left: 105px; */
   display: flex;
   flex-direction: column;
-  margin-right: 20px;
+  /* margin-right: 20px; */
+  margin: 0 auto;
 }
 .steps__para-1,
 .steps__para-2,
 .steps__para-3{
-  margin-left: 100px;
-  margin-right: 100px;
+  /* margin-left: 100px;
+  margin-right: 100px; */
+  margin: 0 auto;
 }
 
 .steps__number{
@@ -1583,7 +1586,8 @@ margin: 0 auto;
 }
 
 .steps__number--wrapper{
-  margin-right: -45px;
+  /* margin-right: -45px; */
+  margin: 0 auto;
 }
 
 /*VALUES*/
@@ -1712,13 +1716,15 @@ margin: 0 auto;
     display: block;
     /* position: relative; */
     /* margin: 0px 10px; */
+    display: flex;
+    flex-direction: column;
   }
   .homepage__email--input{
     display: block;
     width: 100%;
-    max-width: 450px;
+    max-width: 300px;
     /* margin:0px 10px; */
-    padding:  0px -45px; 
+    /* padding:  0px -45px;  */
     /* margin-top: 10px; */
     margin: 0 auto;
 
@@ -1726,23 +1732,10 @@ margin: 0 auto;
   .homepage__email--btn{
     position: static;
     width: 100%;
+    max-width: 300px;
     padding: 16px 0px;
     margin: 16px 0px;
-    /* position: absolute;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    max-width: 350px;
-    margin-top: 65px;
-    margin: 0 auto;
-    padding:30px 0;
-    font-size:15px; */
   }
-
   .homepage__banner{
     width: 100%;
     margin-top: 130px;
@@ -1829,7 +1822,8 @@ margin: 0 auto;
   }
 
   .steps__row{
-    margin-left: -45px;
+    /* margin-left: -45px; */
+    margin: 0 auto;
   }
 
 
