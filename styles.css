@@ -1776,9 +1776,10 @@ margin: 0 auto;
 
   .features__para{
     width: 100%;
-    max-width: 400px;
+    max-width: 300px;
     font-size: 12px;
     font-weight: 600;
+    margin-bottom: 30px;
   }
   .feature__list--wrapper{
     display: flex;
