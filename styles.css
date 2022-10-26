@@ -1686,7 +1686,7 @@ margin: 0 auto;
 /*MOBILE PHONES*/
 
 @media(max-width:576px){
-  
+
   .homepage__wrapper{
     display: flex;
     justify-content: center;
@@ -1702,13 +1702,13 @@ margin: 0 auto;
   } */
   .homepage__email{
     position: relative;
-    margin: 0px 10px;
+    /* margin: 0px 10px; */
   }
   .homepage__email--input{
     display: block;
     width: 100%;
     max-width: 450px;
-    margin:0px 10px;
+    /* margin:0px 10px; */
     padding:  15px ; 
     margin-top: 10px;
 
@@ -1922,7 +1922,7 @@ margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 5px;
+    /* margin-left: 5px; */
   }
   .testimonial__profile--container h3{
     margin: 0 auto;
