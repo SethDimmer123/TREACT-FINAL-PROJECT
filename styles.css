@@ -1781,10 +1781,19 @@ margin: 0 auto;
     /* margin-left:20px ; */
   }
 
+  .features__list{
+    display: flex;
+    justify-content: center;
+  }
+  .features{
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+  }
+
   .features__subheader{
     font-size: 40px;
     width:100%;
-    max-width: 200px;
     }
 
   .features__para{
@@ -1794,9 +1803,26 @@ margin: 0 auto;
     font-weight: 600;
     margin-bottom: 30px;
   }
-  .feature__list--wrapper{
-    display: flex;
-    flex-direction: column;
+ .feature__list--wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  }
+
+
+  .feature__name--para{
+    margin: 0;
+    max-width: 150px;
+    text-align: start;
+  }
+
+  #features .feature__list--des{
+    margin: 0 auto;
+    max-width: 150px;
+    text-align: start;
+  }
+  .feature__name--header{
+    text-align: start;
   }
 
 
