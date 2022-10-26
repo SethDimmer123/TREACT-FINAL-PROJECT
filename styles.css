@@ -904,7 +904,7 @@ TESTIMONIAL
 
 .testimonial__des--container{
 margin: 0 auto;
-padding-left: 68px;
+/* padding-left: 68px; */
 max-width: 650px;
 }
 
@@ -1422,6 +1422,7 @@ margin:0 auto;
   .homepage__image{
     width: 100%;
     max-width: 450px;
+    margin: 0;
   }
   .features{
     width: 50%;
@@ -1536,9 +1537,9 @@ margin:0 auto;
   margin: 0 auto;
 }
 
-.quality__work--subheader{
+/* .quality__work--subheader{
   margin-left: 10px;
-}
+} */
 
 /*STEPS*/
 
@@ -1690,6 +1691,10 @@ margin: 0 auto;
 
 @media(max-width:576px){
 
+  .container{
+    padding: 80px 0;
+  }
+
   .homepage__wrapper{
     display: flex;
     justify-content: center;
@@ -1704,7 +1709,8 @@ margin: 0 auto;
     margin: 0px 7px;
   } */
   .homepage__email{
-    position: relative;
+    display: block;
+    /* position: relative; */
     /* margin: 0px 10px; */
   }
   .homepage__email--input{
@@ -1718,7 +1724,11 @@ margin: 0 auto;
 
   }
   .homepage__email--btn{
-    position: absolute;
+    position: static;
+    width: 100%;
+    padding: 16px 0px;
+    margin: 16px 0px;
+    /* position: absolute;
     right: 0px;
     top: 0px;
     bottom: 0px;
@@ -1728,9 +1738,9 @@ margin: 0 auto;
     width: 100%;
     max-width: 350px;
     margin-top: 65px;
-    /* margin: 0 auto; */
+    margin: 0 auto;
     padding:30px 0;
-    font-size:15px;
+    font-size:15px; */
   }
 
   .homepage__banner{
@@ -1799,11 +1809,13 @@ margin: 0 auto;
 
   .steps__img--wrapper{
     margin:0 auto;
+    width: 100%;
+    max-width: 200px;
   }
   .steps__img--wrapper img{
     margin-bottom: 80px;
     width: 100%;
-    /* max-width: 250px; */
+    max-width: 250px;
   }
   .steps__list--container{
     margin: 0 auto;
@@ -1889,6 +1901,7 @@ margin: 0 auto;
     display: flex;
     flex-direction: column;
     /* margin: 0 25px; */
+    max-width: 300px;
   } 
   .pricing__subheader{
     font-size: 36px;
@@ -1927,7 +1940,7 @@ margin: 0 auto;
     max-width: 400px;
   }
   .testimonial__des{
-    margin-left: -5px;
+    /* margin-left: -5px; */
     width:100%;
     max-width: 400px;
     margin-top: 15px;
@@ -1945,7 +1958,7 @@ margin: 0 auto;
   .testimonial__bottom--des{
     width: 100%;
     max-width:350px;
-    margin-right:5px
+    /* margin-right:5px */
   }
   .testimonial__img--wrapper{
     margin-right:15px;
