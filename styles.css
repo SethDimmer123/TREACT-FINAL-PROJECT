@@ -1696,6 +1696,17 @@ margin: 0 auto;
 
 @media(max-width:576px){
 
+  .blob__pink {
+    position: absolute;
+    height: 256px;
+    width: 256px;
+    opacity: 0.09;
+    transform: translate(calc(150% /3));
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
   .container{
     padding: 80px 0;
   }
