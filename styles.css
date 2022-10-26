@@ -215,7 +215,7 @@ HOMEPAGE
 width: calc(100% /2);
 display:flex;
 flex-direction:column;
-margin-left: 20px;
+/* margin-left: 20px; */
 }
 
 
@@ -1494,6 +1494,10 @@ margin:0 auto;
 /* MOBILE PHONES */
 @media(max-width:780px) {
 
+#features{
+  overflow: hidden;
+}
+
 .features{
   width: 100%;
   flex-direction: row;
@@ -1793,16 +1797,6 @@ margin: 0 auto;
     display: flex;
     flex-direction: column;
   }
-  .blob__pink {
-    position: absolute;
-    height: 256px;
-    width: 256px;
-    opacity: 0.09;
-    transform: translate(calc(150% /3));
-    right: 0;
-    bottom: 0;
-    overflow: hidden;
-}
 
 
   /* STEPS */
