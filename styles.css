@@ -2099,14 +2099,13 @@ margin: 0 auto;
 
 }
 
-/* @media(max-width:500px) {
+ @media(max-width:500px) {
 
   .homepage__banner{
     margin: 0 auto;
   }
 
   .footer__lower--logo{
-
     margin-bottom: 20px;
   }
 
@@ -2119,14 +2118,7 @@ margin: 0 auto;
   margin-right: 128px;
  }
 
-  .footer__column--container{
-    margin:0 auto;
-  }
-
-  .footer__column--container-5{
-    padding-right: 15%;
-  }
-} */
+} 
 
 
 @media(min-width:853px) {
