@@ -2077,6 +2077,7 @@ margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 .footer__lower--container{
   display: flex;
@@ -2098,9 +2099,41 @@ margin: 0 auto;
 
 }
 
+/* @media(max-width:500px) {
+
+  .homepage__banner{
+    margin: 0 auto;
+  }
+
+  .footer__lower--logo{
+
+    margin-bottom: 20px;
+  }
+
+  .footer__copyright--container{
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+ .footer__social--container{
+  margin-right: 128px;
+ }
+
+  .footer__column--container{
+    margin:0 auto;
+  }
+
+  .footer__column--container-5{
+    padding-right: 15%;
+  }
+} */
 
 
-
+@media(min-width:853px) {
+  .testimonial__bottom--container{
+    padding-left: 30px;
+  }
+}
 
 
 
