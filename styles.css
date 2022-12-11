@@ -1224,7 +1224,7 @@ margin:0 auto;
   padding: 12px;
   background-color: white;
   border-radius: 100%;
-  margin-right: 2px;
+  /* margin-right: 2px; */
 }
 
 .footer__bottom--link svg{
@@ -2107,25 +2107,32 @@ margin: 0 auto;
 
   .footer__lower--logo{
     margin-bottom: 20px;
+    margin-left: 10px;
   }
 
-  .footer__copyright--container{
+  /* .footer__column--container-5{
+    margin-left:25%;
+  } */
+
+
+
+  /* .footer__copyright--container{
     margin: 0 auto;
     margin-bottom: 20px;
-  }
+  } */
 
- .footer__social--container{
+ /* .footer__social--container{
   margin-right: 128px;
- }
+ } */
 
 } 
 
 
-@media(min-width:853px) {
+/* @media(min-width:853px) {
   .testimonial__bottom--container{
     padding-left: 30px;
-  }
-}
+  } */
+/* } */
 
 
 
