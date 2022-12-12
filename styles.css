@@ -179,9 +179,7 @@ font-size: 16px;
 }
 
 /*
-
 HOMEPAGE
-
 */
 
 .logo{
@@ -395,9 +393,7 @@ letter-spacing: 0.025rem;
 }
 
 /*
-
 QUALITY WORK
-
 */
 
 #quality__work{
@@ -470,9 +466,7 @@ position: relative;
 
 
 /*
-
 STEPS
-
 */
 
 #steps{
@@ -579,9 +573,7 @@ max-width:900px
 
 
 /*
-
 VALUES
-
 */
 
 #values {
@@ -689,9 +681,7 @@ align-items: center;
 }
 
 /*
-
 PRICING
-
 */
 
 #pricing{
@@ -911,9 +901,7 @@ padding: 8px;
 
 
 /* 
-
 TESTIMONIAL
-
 */
 
 #testimonials{
@@ -1033,9 +1021,7 @@ margin-top: 30px;
 }
 
 /* 
-
 TREACT GET STARTED SECTION
-
 */
 
 #treact__get--started{
@@ -1124,9 +1110,7 @@ TREACT GET STARTED SECTION
 }
 
 /*
-
 FOOTER
-
 */
 
 footer{
@@ -1340,7 +1324,6 @@ margin:0 auto;
   }
 
   /* .grid__purple{
-
   }*/
 
   /*STEPS*/
@@ -1470,14 +1453,14 @@ margin:0 auto;
   }
   .quality__work--wrapper img{
     width: 100%;
-    margin-left: 30px;
+    margin-left: -40px;
   }
 
   /*STEPS*/
 
   .steps__img--wrapper{
     width: 100%;
-    /* max-width:350px; */
+    max-width:350px;
   }
   .steps__subheader{
     font-size: 36px;
@@ -1610,9 +1593,8 @@ margin:0 auto;
 margin: 0 auto;
 }
 
-.steps__number-2{
-  margin-right: 50px;
-}
+/* .steps__number-2{
+} */
 
 /* .steps__img--wrapper{
   margin-left: 50px;
@@ -1684,7 +1666,7 @@ margin: 0 auto;
   text-align: center;
 }
 .learn__more--btn{
-  margin-left: 150px;
+  margin-left: 200px;
 }
 
 /*TESTIMONIALS*/
@@ -1799,7 +1781,6 @@ margin: 0 auto;
   /* .homepage__image{
     width: 100%;
     max-width: 260px;
-
   } */
 
   /*FEATURES*/
