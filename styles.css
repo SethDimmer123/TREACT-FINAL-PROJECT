@@ -1477,7 +1477,7 @@ margin:0 auto;
 
   .steps__img--wrapper{
     width: 100%;
-    max-width:350px;
+    /* max-width:350px; */
   }
   .steps__subheader{
     font-size: 36px;
@@ -1610,9 +1610,9 @@ margin:0 auto;
 margin: 0 auto;
 }
 
-/* .steps__number-2{
-
-} */
+.steps__number-2{
+  margin-right: 50px;
+}
 
 /* .steps__img--wrapper{
   margin-left: 50px;
