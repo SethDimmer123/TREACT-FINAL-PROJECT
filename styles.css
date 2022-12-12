@@ -33,7 +33,6 @@ html{
 
 #homepage{
   position: relative;
-  overflow-x: hidden;
 }
 
  .row{
@@ -108,10 +107,6 @@ a{  /*edits the links*/
   color: rgb(100, 21, 255);
   cursor: pointer;
   transition: 300ms;
-}
-
-.homepage__wrapper--img{
-  overflow-x: hidden;
 }
 
 .menu__backdrop{
@@ -305,7 +300,6 @@ features
 
 #features{
   position: relative;
-  overflow-x: hidden;
 }
 
 #features .row{
@@ -396,9 +390,6 @@ letter-spacing: 0.025rem;
 QUALITY WORK
 */
 
-#quality__work{
-  overflow-x: hidden;
-}
 
 .quality__work--header{
   letter-spacing: 0.1em;
@@ -576,10 +567,6 @@ max-width:900px
 VALUES
 */
 
-#values {
-  overflow-x: hidden;
-}
-
 .values__subheader{
   width: 100%;
   max-width: 500px;
@@ -683,10 +670,6 @@ align-items: center;
 /*
 PRICING
 */
-
-#pricing{
-  overflow-x: hidden;
-}
 
 .pricing__des--container{
   width: 100%;
@@ -904,10 +887,6 @@ padding: 8px;
 TESTIMONIAL
 */
 
-#testimonials{
-  overflow-x: hidden;
-}
-
 #testimonials .row{
   display: flex;
 }
@@ -1023,10 +1002,6 @@ margin-top: 30px;
 /* 
 TREACT GET STARTED SECTION
 */
-
-#treact__get--started{
-  overflow-x: hidden;
-}
 
 
 .treact__get-started--container{
@@ -1288,10 +1263,7 @@ margin:0 auto;
   .homepage__figure--wrapper{
     display: flex;
     flex-direction: column;
-    /* margin-left: 200px; */
-    margin: 0 auto;
-    width: 100%;
-    max-width: 400px;
+    margin-left: 200px;
   }
 
   .homepage__image{
@@ -1329,7 +1301,7 @@ margin:0 auto;
   /*STEPS*/
   .steps__img--wrapper{
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
   }
   .steps__header{
     margin-left: 60px;
@@ -1402,7 +1374,7 @@ margin:0 auto;
   /*TESTIMONIALS*/
 
   .testimonial__img{
-    /* margin-left: 20px; */
+    margin-left: 20px;
     width: 100%;
   }
 
@@ -1434,7 +1406,7 @@ margin:0 auto;
 
   .homepage__image{
     width: 100%;
-    max-width: 600px;
+    max-width: 450px;
     margin: 0;
   }
   .features{
@@ -1453,14 +1425,14 @@ margin:0 auto;
   }
   .quality__work--wrapper img{
     width: 100%;
-    margin-left: -40px;
+    margin-left: 30px;
   }
 
   /*STEPS*/
 
   .steps__img--wrapper{
     width: 100%;
-    max-width:350px;
+    /* max-width:350px; */
   }
   .steps__subheader{
     font-size: 36px;
@@ -1594,6 +1566,7 @@ margin: 0 auto;
 }
 
 /* .steps__number-2{
+
 } */
 
 /* .steps__img--wrapper{
@@ -1666,7 +1639,7 @@ margin: 0 auto;
   text-align: center;
 }
 .learn__more--btn{
-  margin-left: 200px;
+  margin-left: 150px;
 }
 
 /*TESTIMONIALS*/
