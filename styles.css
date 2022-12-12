@@ -33,6 +33,7 @@ html{
 
 #homepage{
   position: relative;
+  overflow-x: hidden;
 }
 
  .row{
@@ -107,6 +108,10 @@ a{  /*edits the links*/
   color: rgb(100, 21, 255);
   cursor: pointer;
   transition: 300ms;
+}
+
+.homepage__wrapper--img{
+  overflow-x: hidden;
 }
 
 .menu__backdrop{
@@ -302,6 +307,7 @@ features
 
 #features{
   position: relative;
+  overflow-x: hidden;
 }
 
 #features .row{
@@ -394,6 +400,9 @@ QUALITY WORK
 
 */
 
+#quality__work{
+  overflow-x: hidden;
+}
 
 .quality__work--header{
   letter-spacing: 0.1em;
@@ -575,6 +584,10 @@ VALUES
 
 */
 
+#values {
+  overflow-x: hidden;
+}
+
 .values__subheader{
   width: 100%;
   max-width: 500px;
@@ -680,6 +693,10 @@ align-items: center;
 PRICING
 
 */
+
+#pricing{
+  overflow-x: hidden;
+}
 
 .pricing__des--container{
   width: 100%;
@@ -899,6 +916,10 @@ TESTIMONIAL
 
 */
 
+#testimonials{
+  overflow-x: hidden;
+}
+
 #testimonials .row{
   display: flex;
 }
@@ -1016,6 +1037,10 @@ margin-top: 30px;
 TREACT GET STARTED SECTION
 
 */
+
+#treact__get--started{
+  overflow-x: hidden;
+}
 
 
 .treact__get-started--container{
@@ -1279,7 +1304,10 @@ margin:0 auto;
   .homepage__figure--wrapper{
     display: flex;
     flex-direction: column;
-    margin-left: 200px;
+    /* margin-left: 200px; */
+    margin: 0 auto;
+    width: 100%;
+    max-width: 400px;
   }
 
   .homepage__image{
@@ -1318,7 +1346,7 @@ margin:0 auto;
   /*STEPS*/
   .steps__img--wrapper{
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
   }
   .steps__header{
     margin-left: 60px;
@@ -1391,7 +1419,7 @@ margin:0 auto;
   /*TESTIMONIALS*/
 
   .testimonial__img{
-    margin-left: 20px;
+    /* margin-left: 20px; */
     width: 100%;
   }
 
@@ -1423,7 +1451,7 @@ margin:0 auto;
 
   .homepage__image{
     width: 100%;
-    max-width: 450px;
+    max-width: 600px;
     margin: 0;
   }
   .features{
